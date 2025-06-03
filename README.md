@@ -17,16 +17,16 @@ The model stplits the sentence into tokens
 ### Step 2. (Embeddings)
 
 Each word is turned into a vector - a list of numbers that carry meaning. For example:
-**Attention -> [0.13, 0.44, -0.65 ..., 0.02]
-**friend -> [0.91, -0.17, 0.33, ..., -0.03]
+* Attention -> [0.13, 0.44, -0.65 ..., 0.02]
+* friend -> [0.91, -0.17, 0.33, ..., -0.03]
 
 But the point every word is treated equally. Thats where attention comes in.
 
 So what are the Embading?
 Because computer can't understand words like "attention" or "friend" but they can work with numbers/
 And not just any numbers - there are vectors are dsigned so that:ww
-*Similar words have similar vectors
-*Opposite or unrelated words have distant vectors:
+* Similar words have similar vectors
+* Opposite or unrelated words have distant vectors:
 
 
 ### Step 3. (Attention mechanism begins)s
@@ -35,7 +35,7 @@ Now model focuses on the question:
 
 ```
 What are you trying to explain?
-```
+```ß
 
 The model looks at the word ```explain``` because it's the main action of the question.
 
