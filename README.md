@@ -2,28 +2,38 @@
 
 Welcome to the LLM Challenges repository! This project is designed to help learners explore and understand large language models (LLMs) through a series of engaging challenges. Each challenge is structured to build knowledge progressively, from basic concepts to more advanced applications.
 
-## Project Overview
+## How Attention works in AI
+### Lets say your friend asks: '''What does attention mean in AI?'''' Help them understand by showing, not just telling:
+Example:
+```
+Currently i am trying to explain how attenttion works to my friend.
+```
+### Step 1. (Tokenization)
+The model stplits the sentence into tokens
+```
+["Currently", "I", "am", "trying", "to", "explain", "how", "attention", "works", "to". "my", "friend", "."]
+```
 
-The LLM Challenges consist of a series of tasks that guide users through various aspects of LLMs, including attention mechanisms, model evolution, coding capabilities, prompt engineering, and more. Each challenge is categorized by difficulty level and includes experience points (XP) as a fun way to track progress.
+### Step 2. (Embeddings)
 
-## Files Included
+Each word is turned into a vector - a list of numbers that carry meaning. For example:
+**Attention -> [0.13, 0.44, -0.65 ..., 0.02]
+**friend -> [0.91, -0.17, 0.33, ..., -0.03]
 
-- **tasks_01.md**: This file contains detailed descriptions of each challenge, including their levels, XP rewards, prerequisites, missions, deliverables, resources, and success criteria.
+But the point every word is treated equally. Thats where attention comes in.
 
-## Getting Started
+So what are the Embading?
+Because computer can't understand words like "attention" or "friend" but they can work with numbers/
+And not just any numbers - there are vectors are dsigned so that:ww
+**Similar words have similar vectors
+**Opposite or unrelated words have distant vectors:
+For example:
 
-To get started with the LLM Challenges:
+| Word      | Embedding Meaning (Simplified)          |
+| --------- | --------------------------------------- |
+| attention | close to: focus, concentrate, awareness |
+| friend    | close to: buddy, pal, companion         |
+| cat       | close to: dog, animal, pet              |
+| war       | far from: peace, flower, banana         |
 
-1. Clone the repository to your local machine.
-2. Open the `tasks_01.md` file to view the challenges.
-3. Follow the instructions for each challenge and complete them at your own pace.
 
-## Contribution
-
-Contributions are welcome! If you have ideas for new challenges or improvements to existing ones, feel free to submit a pull request.
-
-## License
-
-This project is open-source and available under the MIT License. 
-
-Happy learning!
