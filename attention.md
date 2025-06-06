@@ -29,6 +29,10 @@ In this challange i will try to simplify the attention mechanisms in Transformer
 
 * Thus, Attention is a mechanism that enables models to focus on specific parts of thee input data, assigning ***varying degrees of importance*** to different words. It's like telling the model where to pay attention when processing information.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YusuCoder/LLM-challenges/main/example2.png" alt="Example" width="500"/>
+</p>
+
 In simple words:
 
 ***With the help of the attention mechanism, we try to understand context of tthe sentence byu understanding the importance of the specific words by assigning more or less weights to the words.***
