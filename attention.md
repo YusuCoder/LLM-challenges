@@ -87,6 +87,7 @@ To calculate the attention weights, the model performs a dot product between the
   <img src="https://raw.githubusercontent.com/YusuCoder/LLM-challenges/main/example5.png" alt="Example" width="500"/>
 </p>
 
+Softmax: outputs from the final linear layer) and converts them into probabilities.
 
 ## Interpretation:
 * If the attention weight for a specific word is high, it means the model considers that the word highly relevant to understanding the current word's context.
