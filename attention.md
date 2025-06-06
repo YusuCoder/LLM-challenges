@@ -43,11 +43,15 @@ In simple words:
 * Self attention is like looking at different words within the same sentence and deciding how much importance to give to each word when understanding the meaning of the sentence. It helps the model to consider the ***relationship between words within the next***.
 * We compare the words of the sentence to the words of the same sentence during computation.
 
-example picture here: 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YusuCoder/LLM-challenges/main/example3.png" alt="Example" width="500"/>
+</p>
 
 For example in our sentece, self-attention helps to understand model that ```cat``` and ```mat``` are related because they have high attention wights, indicating they are the subject and object of the action ```sat```.
 
-example picture here:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YusuCoder/LLM-challenges/main/example4.png" alt="Example" width="500"/>
+</p>
 
 
 
@@ -77,6 +81,9 @@ To calculate the attention weights, the model performs a dot product between the
 
 ***Wighted Sum***: Finally the attention wights obtained from the softmax are used to calculate a weighted sum of the value vactors of all words. This weughted sum represents the new representation of the current wordm, incorporating information from all other words based on their importance scores.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YusuCoder/LLM-challenges/main/example5.png" alt="Example" width="500"/>
+</p>
 
 
 ## Interpretation:
