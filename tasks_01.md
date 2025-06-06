@@ -194,6 +194,10 @@
 - **Confidence:** You can tackle AI projects independently
 
 ### Fun Achievements
+
+
+
+learn langchain build your own environment with, diong llm codes
 - 🔬 **First "Aha!":** That moment when attention finally clicks
 - 🤝 **Helpful Human:** Explained something clearly to 3 people
 - 🎯 **Bug Hunter:** Found why your code didn't work (and fixed it!)
