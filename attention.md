@@ -1,9 +1,9 @@
-# LLM Challenges
+ # LLM Challenges
 
 Welcome to the LLM Challenges repository! This project is designed to help learners explore and understand large language models (LLMs) through a series of engaging challenges. Each challenge is structured to build knowledge progressively, from basic concepts to more advanced applications.
 
 ## How Attention works in AI
-### Lets say your friend asks: '''What does attention mean in AI?'''' Help them understand by showing, not just telling:
+### Lets say your friend asks: "What does attention mean in AI?" Help them understand by showing, not just telling:
 Example:
 ```
 Currently i am trying to explain how attenttion works to my friend.
@@ -20,6 +20,13 @@ In this challange i will try to simplify the attention mechanisms in Transformer
 
 
 ## Attention mechanism intuition 
+
+```markdown
+![Attention Mechanism Diagram](example.png)
+```
+
+> **Note:** Local images will only display correctly if the markdown viewer supports local file paths and has access to the image location.
+
 
 * Imagine you are reading a book: Your attention naturally shifts from word to word, emphasing certain words or phrases based on their context and relevance to understand the text better. Attention mechanisms in AI work somewhat similar.
 
@@ -40,6 +47,7 @@ example picture here:
 For example in our sentece, self-attention helps to understand model that ```cat``` and ```mat``` are related because they have high attention wights, indicating they are the subject and object of the action ```sat```.
 
 example picture here:
+
 
 
 ## How do attention mechanism work?
