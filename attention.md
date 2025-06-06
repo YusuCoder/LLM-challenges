@@ -47,6 +47,8 @@ In simple words:
   <img src="https://raw.githubusercontent.com/YusuCoder/LLM-challenges/main/example3.png" alt="Example" width="500"/>
 </p>
 
+Another example: Cat sat on the mat.
+
 For example in our sentece, self-attention helps to understand model that ```cat``` and ```mat``` are related because they have high attention wights, indicating they are the subject and object of the action ```sat```.
 
 <p align="center">
