@@ -21,12 +21,9 @@ In this challange i will try to simplify the attention mechanisms in Transformer
 
 ## Attention mechanism intuition 
 
-```markdown
-![Attention Mechanism Diagram](example.png)
-```
-
-> **Note:** Local images will only display correctly if the markdown viewer supports local file paths and has access to the image location.
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YusuCoder/LLM-challenges/main/example.png" alt="Example" width="500"/>
+</p>
 
 * Imagine you are reading a book: Your attention naturally shifts from word to word, emphasing certain words or phrases based on their context and relevance to understand the text better. Attention mechanisms in AI work somewhat similar.
 
