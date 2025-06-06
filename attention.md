@@ -6,7 +6,7 @@ Welcome to the LLM Challenges repository! This project is designed to help learn
 ### Lets say your friend asks: "What does attention mean in AI?" Help them understand by showing, not just telling:
 Example:
 ```
-Currently i am trying to explain how attenttion works to my friend.
+The fog chased the ball in the park.
 ```
 In this challange i will try to simplify the attention mechanisms in Transformers, exploring what they are, why they are essential, and how they work their magic.
 
